@@ -37,7 +37,18 @@
 
     <!-- CONTENIDO DE TU PAGINA -->
     <div class="container">
-        <h1>Contenido de tu pagina</h1>
+        <div class="row">
+            <div class="col-sm-6 mx-auto text-center">
+                <img id="imgPokemon" src="assets/images/pokemon logo.png" alt="Imagen" height="200px">
+                <h3>Nombre:</h3>
+                <p id="nombrePokemon"></p>
+                <h3>Peso:</h3>
+                <p id="pesoPokemon"></p>
+                <h3>Altura:</h3>
+                <p id="alturaPokemon"></p>
+                <button type="button" class="btn btn-primary mt-5" onclick="randomPokemon()">Random Pokemon</button>
+            </div>
+        </div>
     </div>
     <!-- CONTENIDO DE TU PAGINA -->
 
@@ -79,4 +90,5 @@
     </footer>
 </body>
 <script src="assets/js/main.js"></script>
+
 </html>
